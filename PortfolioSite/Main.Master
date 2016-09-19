@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="PortfolioSite.Main" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+
+    <!-- Css Section -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/app.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" class="main-form">
+        <div role="main" class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!--
+        <footer role="contentinfo">
+            <nav class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="container fa-inverse">
+                    <h4>&copy; 2016 - Learning Asp.Net</h4>
+                </div>
+            </nav>
+        </footer>
+        -->
+    </form>
+
+    <!-- JS section -->
+    <script src="Scripts/jquery-2.2.4.min.js"></script>
+    <script src="Scripts/underscore.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="node_modules/console-shim/console-shim.min.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</body>
+</html>

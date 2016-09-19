@@ -1,0 +1,54 @@
+﻿html, body, .main, .main-form {
+    height: 100%;
+}
+
+body {
+    background-color: #000000;
+    color: #eeeeee;
+    height: 100%;
+}
+
+.main {
+}
+
+.v-h-center {
+    display: flex;
+    align-items: center;
+}
+
+.h-center {
+    margin: 0 auto;
+}
+
+.full-body {
+    min-height: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*
+@media (max-width: 767px) {
+    .full-body {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 983px) {
+    .full-body {
+        height: 800px;
+    }
+}
+
+@media (min-width: 984px) and (max-width: 1199px) {
+    .full-body {
+        height: 800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .full-body {
+        height: 800px;
+    }
+}
+*/
+
