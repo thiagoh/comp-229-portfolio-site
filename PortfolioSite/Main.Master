@@ -21,20 +21,22 @@
 </head>
 <body>
     <form id="form1" runat="server" class="main-form">
+
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+     
+                </div>
+            </nav>
+        </header>
+
         <div role="main" class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </div>
 
-        <!--
         <footer role="contentinfo">
-            <nav class="navbar navbar-inverse navbar-fixed-bottom">
-                <div class="container fa-inverse">
-                    <h4>&copy; 2016 - Learning Asp.Net</h4>
-                </div>
-            </nav>
         </footer>
-        -->
     </form>
 
     <!-- JS section -->

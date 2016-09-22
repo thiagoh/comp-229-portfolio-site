@@ -7,6 +7,7 @@
 
     <div class="container-fluid full-body">
 
+        <!--
         <div class="row full-body">
 
             <div class="col-sm-3 col-md-2"></div>
@@ -26,9 +27,8 @@
 
             </div>
             <div class="col-sm-3 col-md-2"></div>
-
         </div>
-
+        -->
 
     </div>
 
