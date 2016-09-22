@@ -43,7 +43,26 @@
                 <li>Build my own programming language with specific purposes</li>
             </ul>
 
-        </div>
+            <h3>Top Skills:</h3>
+            <div style="font-size: 140%;">
+                <span class="label label-default">Java</span>
+                <span class="label label-default">JavaScript</span>
+                <span class="label label-default">C/C++</span>
+                <span class="label label-default">PHP</span>
+                <span class="label label-default">Python</span>
+            </div>
 
+            <h3>Additional Skills:</h3>
+            <div style="font-size: 120%;">
+                <span class="label label-default">NodeJs</span>
+                <span class="label label-default">Shell Scripting</span>
+                <span class="label label-default">AngularJs</span>
+                <span class="label label-default">jQuery</span>
+                <span class="label label-default">CSS</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="padding: 40px;">
     </div>
 </asp:Content>
