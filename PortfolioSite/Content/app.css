@@ -8,11 +8,40 @@ body {
     height: 100%;
 }
 
-#profile-image {
-    width:48px;
-    height:58px;
-    border:0;
+#profile-tag {
+    cursor: pointer;
 }
+
+    #profile-tag img {
+        width: 48px;
+        height: 58px;
+        border: 0;
+    }
+
+
+#header {
+    color: #fafafa;
+}
+
+
+
+    #header nav {
+        font-size: 1.3em;
+        color: #eeeeee;
+    }
+
+    #header .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+        background-color: #f0f0f0;
+    }
+
+    #header a {
+        color: #9ab2c8;
+    }
+/*
+    #header a:focus, a:hover {
+    color: #9ab2c8;
+}
+*/
 
 .main {
 }

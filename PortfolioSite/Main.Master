@@ -24,18 +24,18 @@
 
         <div class="container">
 
-
-
-            <header class="header clearfix">
+            <header id="header" class="header clearfix">
                 <nav>
                     <ul class="nav nav-pills pull-right">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">About</a></li>
-                        <li role="presentation"><a href="#">Contact</a></li>
+                        <li role="presentation" class="active"><a href="Default.aspx"><i class="fa fa-home"></i>Home</a></li>
+                        <li role="presentation"><a href="Services.aspx"><i class="fa fa-book"></i>Services</a></li>
+                        <li role="presentation"><a href="Projects.aspx"><i class="fa fa-github"></i>Projects</a></li>
+                        <li role="presentation"><a href="About.aspx"><i class="fa fa-binoculars"></i>About</a></li>
+                        <li role="presentation"><a href="Contact.aspx"><i class="fa fa-phone"></i>Contact</a></li>
                     </ul>
                 </nav>
-                <h1 class="text-muted">
-                    <img src="Assets/images/thiagoh-1.jpg" id="profile-image"/>
+                <h1 id="profile-tag" class="text-muted">
+                    <img src="Assets/images/thiagoh-1.jpg" />
                     Thiago Andrade
                 </h1>
             </header>
