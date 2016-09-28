@@ -88,11 +88,17 @@ body {
 */
 
 .white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 40px;
-  width: auto;
-  max-width: 200px;
-  margin: 20px auto;
-  text-align: center;
+    position: relative;
+    background: #FFF;
+    padding: 40px;
+    width: auto;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#logo {
+    border: 0;
+    margin: 0 auto;
+    display: flex;
 }

@@ -14,8 +14,6 @@
 
             <h2>Projects</h2>
 
-            <h3>Open source projects</h3>
-
             <ul>
                 <li><a target="_blank" href="http://thiagoh.github.io/de-animate/">DeAnimage: main developer;</a></li>
                 <li><a target="_blank" href="https://github.com/apache/commons-lang">Apache Commons Lang: code contributor;</a></li>
@@ -31,33 +29,64 @@
 
     <div class="row">
         <div class="col-xs-6 col-md-4">
-            <a href="http://thiagoh.github.io/de-animate/" class="thumbnail">
-                <img src="Assets/images/de-animate.png" alt="De Animate" />
-            </a>
+            <div class="thumbnail">
+                <a target="_blank" href="http://thiagoh.github.io/de-animate/">
+                    <img src="Assets/images/de-animate.png" alt="De Animate" />
+                </a>
+                <div class="caption">
+                    <h3>De Animate</h3>
+                    <p>Javascript tool to simple animations</p>
+                </div>
+            </div>
         </div>
 
         <div class="col-xs-6 col-md-4">
-            <a href="https://github.com/apache/commons-lang" class="thumbnail">
-                <img src="Assets/images/apache-commons.png" alt="Apache Commons" />
-            </a>
+            <div class="thumbnail">
+                <a target="_blank" href="https://github.com/apache/commons-lang" class="thumbnail">
+                    <img src="Assets/images/apache-commons.png" alt="Apache Commons" />
+                </a>
+                <div class="caption">
+                    <h3>Apache Commons Lang</h3>
+                    <p>Widely used tools for Java</p>
+                </div>
+            </div>
         </div>
 
         <div class="col-xs-6 col-md-4">
-            <a href="https://www.npmjs.com/package/co-work" class="thumbnail">
-                <img src="Assets/images/co-work.png" alt="Co Work" />
-            </a>
+            <div class="thumbnail">
+                <a target="_blank" href="https://www.npmjs.com/package/co-work">
+                    <img src="Assets/images/co-work.png" alt="Co Work" />
+                </a>
+                <div class="caption">
+                    <h3>Co Work</h3>
+                    <p>Javascript framework for dispatching and monitoring concurrent tasks</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-                <img src="Assets/images/flex-complete.png" alt="Flex complete" />
-            </a>
+            <div class="thumbnail">
+                <a target="_blank" href="https://www.npmjs.com/package/flexcomplete">
+                    <img src="Assets/images/flex-complete.png" alt="Flex complete" />
+                </a>
+                <div class="caption">
+                    <h3>Flex complete</h3>
+                    <p>Yet another Javascript auto complete plugin for jQuery</p>
+                </div>
+            </div>
         </div>
         <div class="col-xs-6 col-md-4">
-            <a href="https://www.npmjs.com/package/video-service-url-parser" class="thumbnail">
-                <img src="Assets/images/video-service-url-parser.png" alt="Video service Url parser" />
-            </a>
+
+            <div class="thumbnail">
+                <a target="_blank" href="https://www.npmjs.com/package/video-service-url-parser">
+                    <img src="Assets/images/video-service-url-parser.png" alt="Video service Url parser" />
+                </a>
+                <div class="caption">
+                    <h3>Video Service Url Parser</h3>
+                    <p>JavasScript framework to parse Video Services url: YouTube, Vimeo, DailyMotion</p>
+                </div>
+            </div>
         </div>
     </div>
 

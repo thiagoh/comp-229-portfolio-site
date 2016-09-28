@@ -87,6 +87,10 @@
     <Content Include="Assets\images\image-7.jpg" />
     <Content Include="Assets\images\image-8.jpg" />
     <Content Include="Assets\images\image-9.jpg" />
+    <Content Include="Assets\images\logo-1.png" />
+    <Content Include="Assets\images\logo-2.png" />
+    <Content Include="Assets\images\logo-3.png" />
+    <Content Include="Assets\images\logo.png" />
     <Content Include="Assets\images\npm.png" />
     <Content Include="Assets\images\projects-1.jpg" />
     <Content Include="Assets\images\projects.jpg" />
@@ -103,6 +107,7 @@
     <Content Include="packages.config" />
     <Content Include="Main.Master" />
     <Content Include="Projects.aspx" />
+    <Content Include="Scripts\about.js" />
     <Content Include="Scripts\default.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <Content Include="package.json" />
