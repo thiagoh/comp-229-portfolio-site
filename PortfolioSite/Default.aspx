@@ -5,13 +5,18 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
+    <div class="hidden-xs">
+        <br />
+        <br />
+    </div>
+
     <div class="row">
 
         <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-justify">
 
             <div class="jumbotron">
                 <h1>
-                    <img id="logo" src="Assets/images/logo-1.png" alt="logo"/>
+                    <img id="logo" src="Assets/images/logo-1.png" alt="logo" />
                 </h1>
             </div>
 

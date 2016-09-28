@@ -5,13 +5,16 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
+    <div class="hidden-xs">
+        <br />
+        <br />
+    </div>
 
     <div class="row">
-
-        <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-justify">
-
+        <div class="col-xs-12 col-md-6">
             <h2>Coding is...</h2>
             <p>a passion of mine, it's work but it's hobby as well. Even when I'm not working, I spend lots of hours reading about it, trying new tools, playing with new techs, it's really fun. </p>
+
             <h2>What I've worked on</h2>
             <p>I've been working on software engineering since 2005. Since then I've participated of several projects that used specific technologies such as:</p>
             <ul>
@@ -23,8 +26,18 @@
                 <li>SQL (Relational) databases: PostgreSQL, MySQL, Oracle</li>
                 <li>NoSQL databases such as: MongoDB, Redis, Neo4J</li>
             </ul>
+        </div>
 
-            <h4 style="text-align: center;"><a href="" id="open-popup">When I'm working is like this...</a></h4>
+        <div class="col-xs-12 col-md-6">
+            <img class="img-center" src="Assets/images/projects-3.jpg" alt="Projects" />
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-md-12 col-md-offset-0 text-justify">
+
+            <h4><a href="" id="open-popup">When I'm working is much more like this...</a></h4>
 
             <h2>Side Projects</h2>
             <p>
@@ -36,6 +49,11 @@
                 <li><a target="_blank" href="https://www.npmjs.com/package/flexcomplete">flexcomplete: main developer;</a></li>
                 <li><a target="_blank" href="https://www.npmjs.com/package/video-service-url-parser">video-service-url-parser: main developer;</a></li>
             </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-6 text-justify">
             <h2>What I’m looking to do next</h2>
             <p>My plans for the next ~5years is:</p>
             <ul>
@@ -44,7 +62,9 @@
                 <li>Build a successful game (personal/company project)</li>
                 <li>Build my own programming language with specific purposes</li>
             </ul>
+        </div>
 
+        <div class="col-xs-12 col-md-6 text-justify">
             <h3>Top Skills:</h3>
             <div style="font-size: 140%;">
                 <span class="label label-default">Java</span>
@@ -64,7 +84,6 @@
             </div>
         </div>
     </div>
-
     <br />
     <br />
 
