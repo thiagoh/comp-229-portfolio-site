@@ -71,7 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="Assets\images\image-1.jpeg" />
+    <Content Include="Assets\images\image-1.jpg" />
     <Content Include="Assets\images\image-10.jpg" />
     <Content Include="Assets\images\image-11.jpg" />
     <Content Include="Assets\images\image-12.jpg" />
