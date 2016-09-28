@@ -54,7 +54,7 @@
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <a href="Projects.aspx">
-                    <img src="Assets/images/projects-1.jpg" alt="Projects" />
+                    <img src="Assets/images/stacks.png" alt="Projects" />
                     <div class="caption">
                         <h3>Projects</h3>
                         <p>Check the projects in which I'm involved</p>
