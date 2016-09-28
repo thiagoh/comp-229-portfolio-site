@@ -71,6 +71,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\images\apache-commons.png" />
+    <Content Include="Assets\images\co-work.png" />
+    <Content Include="Assets\images\de-animate.png" />
+    <Content Include="Assets\images\flex-complete.png" />
+    <Content Include="Assets\images\image-0.jpg" />
     <Content Include="Assets\images\image-1.jpg" />
     <Content Include="Assets\images\image-10.jpg" />
     <Content Include="Assets\images\image-11.jpg" />
@@ -82,7 +87,13 @@
     <Content Include="Assets\images\image-7.jpg" />
     <Content Include="Assets\images\image-8.jpg" />
     <Content Include="Assets\images\image-9.jpg" />
+    <Content Include="Assets\images\npm.png" />
+    <Content Include="Assets\images\projects-1.jpg" />
+    <Content Include="Assets\images\projects.jpg" />
+    <Content Include="Assets\images\services-1.jpg" />
+    <Content Include="Assets\images\services.jpg" />
     <Content Include="Assets\images\thiagoh-1.jpg" />
+    <Content Include="Assets\images\video-service-url-parser.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
