@@ -71,6 +71,24 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\images\image-1.jpeg" />
+    <Content Include="Assets\images\image-10.jpg" />
+    <Content Include="Assets\images\image-11.jpg" />
+    <Content Include="Assets\images\image-12.jpg" />
+    <Content Include="Assets\images\image-13.jpg" />
+    <Content Include="Assets\images\image-14.jpg" />
+    <Content Include="Assets\images\image-15.jpg" />
+    <Content Include="Assets\images\image-16.jpg" />
+    <Content Include="Assets\images\image-17.jpg" />
+    <Content Include="Assets\images\image-18.jpg" />
+    <Content Include="Assets\images\image-2.jpg" />
+    <Content Include="Assets\images\image-3.jpg" />
+    <Content Include="Assets\images\image-4.jpg" />
+    <Content Include="Assets\images\image-5.jpg" />
+    <Content Include="Assets\images\image-6.jpg" />
+    <Content Include="Assets\images\image-7.jpg" />
+    <Content Include="Assets\images\image-8.jpg" />
+    <Content Include="Assets\images\image-9.jpg" />
     <Content Include="Assets\images\thiagoh-1.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
@@ -81,6 +99,7 @@
     <Content Include="packages.config" />
     <Content Include="Main.Master" />
     <Content Include="Projects.aspx" />
+    <Content Include="Scripts\default.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <Content Include="package.json" />
     <Content Include="node_modules\console-shim\.npmignore" />

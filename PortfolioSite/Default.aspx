@@ -11,6 +11,10 @@
 
             <h2>Summary</h2>
             <p>I'm a Software Engineer with 10+ years of professional background in software industry. Large experience in web systems, mobile technologies as well;</p>
+
+            <h4 style="text-align: center;"><a href="" id="open-popup">When I'm working is like this...</a></h4>
+
+
             <h2>Coding is...</h2>
             <p>a passion of mine, it's work but it's hobby as well. Even when I'm not working, I spend lots of hours reading about it, trying new tools, playing with new techs, it's really fun. </p>
             <h2>What I've worked on</h2>
@@ -64,5 +68,34 @@
     </div>
 
     <div class="row" style="padding: 40px;">
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="Projects.aspx">
+                    <img src="Assets/images/projects-1.jpg" alt="Projects" />
+                    <div class="caption">
+                        <h3>Projects</h3>
+                        <p>Check the projects in which I'm involved</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-offset-2 col-md-4">
+            <div class="thumbnail">
+                <a href="Services.aspx">
+                    <img src="Assets/images/services-1.jpg" alt="Services" />
+                    <div class="caption">
+                        <h3>Services</h3>
+                        <p>Check the services I provide</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
     </div>
+
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="bottom" runat="server">
+    <script src="Scripts/default.js"></script>
 </asp:Content>
