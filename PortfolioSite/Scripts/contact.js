@@ -22,7 +22,6 @@
     var submitForm = function submitForm(parameter) {
 
         //console.log('click!');
-
         if (!validate()) {
             // shows message error
             $('#message-error').show();

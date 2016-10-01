@@ -33,6 +33,7 @@ namespace PortfolioSite {
 
         /*
          * Set page features such as active class when apropriate
+         * Obs: Trying to use reflection in C# but I didn't have time enough
          */
         public static void setPageFeatures(HtmlGenericControl li) {
 
@@ -41,21 +42,15 @@ namespace PortfolioSite {
             }
         }
 
+        /*
+         * Trying to use reflection in C# but I didn't have time enough
+         */
         //public static void setPageFeatures(MasterPage page, HttpRequest request) {
-
         //    string p = request.Params.Get("p");
         //    p = Validator.isEmpty(p) ? "home" : p;
-
-
-        //    Type t= page.GetType();
-        //    typeof()
-
         //    PropertyInfo prop = page.GetType().GetProperty("li_" + p);
-
         //    if (prop != null) {
-
         //        HtmlGenericControl li = prop.GetValue(page, null) as HtmlGenericControl;
-
         //        if (li != null) {
         //            li.Attributes.Add("class", "active");
         //        }

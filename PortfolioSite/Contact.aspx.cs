@@ -15,10 +15,12 @@ namespace PortfolioSite {
         private void Page_Error(object sender, EventArgs e) {
             // Get last error from the server
             Exception exc = Server.GetLastError();
-
             Debug.WriteLine(exc.StackTrace);
         }
 
+        /*
+         * Click event handle
+         */
         protected void SendButton_Click(object sender, EventArgs e) {
 
             Debug.WriteLine("Email: " + inputEmail1.Text);
