@@ -1,14 +1,19 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Services.aspx.cs" Inherits="PortfolioSite.Services" %>
 
+<!-- Name: Thiago de Andrade Souza -->
+<!-- Student ID: 300886181 -->
+<!-- Date: September 30, 2016 -->
+<!-- Services.aspx file -->
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <br />
-    <br />
-    <br />
-
     <div class="row">
+
+        <br />
+        <br />
+        <br />
 
         <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0 text-justify">
 

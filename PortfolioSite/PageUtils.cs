@@ -9,6 +9,38 @@ using System.Web.UI.HtmlControls;
 namespace PortfolioSite {
     public class PageUtils {
 
+        /*
+         * Creates and retrieves links to pages with appropriate parameters
+         */
+        public static string getPageLink(string pageName) {
+
+            String realName = "Default.aspx";
+
+            if (pageName.Equals("contact")) {
+                realName = "Contact.aspx";
+            } else if (pageName.Equals("about")) {
+                realName = "About.aspx";
+            } else if (pageName.Equals("projects")) {
+                realName = "Projects.aspx";
+            } else if (pageName.Equals("services")) {
+                realName = "Services.aspx";
+            } else {
+                pageName = "home";
+            }
+
+            return realName + "?p=" + pageName;
+        }
+
+        /*
+         * Set page features such as active class when apropriate
+         */
+        public static void setPageFeatures(HtmlGenericControl li) {
+
+            if (li != null) {
+                li.Attributes.Add("class", "active");
+            }
+        }
+
         //public static void setPageFeatures(MasterPage page, HttpRequest request) {
 
         //    string p = request.Params.Get("p");
@@ -29,31 +61,5 @@ namespace PortfolioSite {
         //        }
         //    }
         //}
-
-        public static string getPageLink(string pageName) {
-
-            String realName = "Default.aspx";
-
-            if (pageName.Equals("contact")) {
-                realName = "Contact.aspx";
-            } else if (pageName.Equals("about")) {
-                realName = "About.aspx";
-            } else if (pageName.Equals("projects")) {
-                realName = "Projects.aspx";
-            } else if (pageName.Equals("services")) {
-                realName = "Services.aspx";
-            } else {
-                pageName = "home";
-            }
-
-            return realName + "?p=" + pageName;
-        }
-
-        public static void setPageFeatures(HtmlGenericControl li) {
-
-            if (li != null) {
-                li.Attributes.Add("class", "active");
-            }
-        }
     }
 }

@@ -1,6 +1,11 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="PortfolioSite.Main" %>
 <%@ Import Namespace="PortfolioSite" %>
 
+<!-- Name: Thiago de Andrade Souza -->
+<!-- Student ID: 300886181 -->
+<!-- Date: September 30, 2016 -->
+<!-- Main.Master file -->
+
 <!DOCTYPE html>
 
 <html lang="en">

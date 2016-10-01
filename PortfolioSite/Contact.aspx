@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="PortfolioSite.Contact" %>
 
+<!-- Name: Thiago de Andrade Souza -->
+<!-- Student ID: 300886181 -->
+<!-- Date: September 30, 2016 -->
+<!-- Contact.aspx file -->
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

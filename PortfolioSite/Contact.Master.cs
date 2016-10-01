@@ -8,7 +8,9 @@ using System.Web.UI.WebControls;
 
 namespace PortfolioSite {
     public partial class Contact1 : System.Web.UI.MasterPage {
+
         protected void Page_Load(object sender, EventArgs e) {
+
             MasterPage page = sender as MasterPage;
 
             string p = Request.Params.Get("p");
