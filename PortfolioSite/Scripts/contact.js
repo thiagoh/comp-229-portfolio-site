@@ -19,7 +19,7 @@
         return true;
     }
 
-    var submitForm = function submitForm() {
+    var submitForm = function submitForm(parameter) {
 
         //console.log('click!');
 
@@ -41,6 +41,8 @@
             // fade out success after 3secs
             $('#message-success').fadeOut();
         }, 3000);
+
+        //__doPostBack('SendButton', parameter);
 
         return true;
     }
