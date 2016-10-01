@@ -12,6 +12,7 @@ namespace PortfolioSite {
             MasterPage page = sender as MasterPage;
 
             string p = Request.Params.Get("p");
+            p = Validator.isEmpty(p) ? "home" : p;
 
             HtmlGenericControl li = null;
 
