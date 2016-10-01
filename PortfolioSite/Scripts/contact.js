@@ -1,15 +1,14 @@
-﻿    /*
-     * Contact routines file
-     */
+﻿/*
+ * Contact routines file
+ */
 (function () {
 
     // form validation
     function validate() {
 
-
         $('.form-group').removeClass('has-error');
 
-        var emailEl = $('#exampleInputEmail1');
+        var emailEl = $('.input-email1:first');
 
         // ordinary validation
         if (emailEl.val().indexOf('@') <= 0 || emailEl.val().indexOf('.') <= 0) {
@@ -20,15 +19,14 @@
         return true;
     }
 
-    // on click event wiring
-    $('#submit-button').click(function () {
+    var submitForm = function submitForm() {
 
         //console.log('click!');
 
         if (!validate()) {
             // shows message error
             $('#message-error').show();
-            return;
+            return false;
         }
 
         // validation passed!
@@ -43,6 +41,14 @@
             // fade out success after 3secs
             $('#message-success').fadeOut();
         }, 3000);
-    });
+
+        return true;
+    }
+
+    window.submitForm = submitForm;
+
+    // on click event wiring
+    //$('.submit-button:first').click(function () {
+    //});
 
 }());

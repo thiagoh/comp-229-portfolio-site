@@ -1,11 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PortfolioSite.Default" %>
 
-<!-- Name: Thiago de Andrade Souza -->
-<!-- Student ID: 300886181 -->
-<!-- Date: September 30, 2016 -->
-<!-- Default.aspx file -->
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!-- Name: Thiago de Andrade Souza -->
+    <!-- Student ID: 300886181 -->
+    <!-- Date: September 30, 2016 -->
+    <!-- Default.aspx file -->
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

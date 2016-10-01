@@ -1,11 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="PortfolioSite.About" %>
 
-<!-- Name: Thiago de Andrade Souza -->
-<!-- Student ID: 300886181 -->
-<!-- Date: September 30, 2016 -->
-<!-- About.aspx file -->
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!-- Name: Thiago de Andrade Souza -->
+    <!-- Student ID: 300886181 -->
+    <!-- Date: September 30, 2016 -->
+    <!-- About.aspx file -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

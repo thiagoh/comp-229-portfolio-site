@@ -1,11 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Contact.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="PortfolioSite.Contact" %>
 
-<!-- Name: Thiago de Andrade Souza -->
-<!-- Student ID: 300886181 -->
-<!-- Date: September 30, 2016 -->
-<!-- Contact.aspx file -->
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <!-- Name: Thiago de Andrade Souza -->
+    <!-- Student ID: 300886181 -->
+    <!-- Date: September 30, 2016 -->
+    <!-- Contact.aspx file -->
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -21,22 +20,21 @@
 
         <div class="form-group">
             <label for="exampleInputEmail1">Full name</label>
-            <input type="email" class="form-control" id="exampleInputFullname1" placeholder="First name Last name">
+            <asp:TextBox ID="inputName1" CssClass="form-control" placeholder="First name Last name" runat="server"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <asp:TextBox ID="inputEmail1" CssClass="form-control input-email1" placeholder="user@company.com" runat="server"></asp:TextBox>
         </div>
         <div class="form-group">
             <label for="exampleInputFile">Message</label>
         </div>
 
-        <textarea class="form-control" rows="6" id="exampleInputFile"></textarea>
+        <asp:TextBox ID="textareaMessage1" runat="server" CssClass="form-control" TextMode="MultiLine" Rows="6"></asp:TextBox>
 
         <br />
 
-        <button type="button" id="submit-button" class="btn btn-primary">Send it!</button>
-
+        <asp:Button ID="SendButton" CssClass="btn btn-primary btn-lg submit-button" runat="server" Text="Send it!" OnClientClick="return submitForm();" OnClick="SendButton_Click" />
     </div>
 
 </asp:Content>
