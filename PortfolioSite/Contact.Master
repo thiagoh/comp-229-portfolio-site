@@ -1,5 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="PortfolioSite.Main" %>
-<%@ Import Namespace="PortfolioSite" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="PortfolioSite.Contact1" %>
 
 <!DOCTYPE html>
 
@@ -32,7 +31,7 @@
                         <li role="presentation" runat="server" ID="li_services"><a href="Services.aspx"><i class="fa fa-book"></i>Services</a></li>
                         <li role="presentation" runat="server" ID="li_projects"><a href="Projects.aspx"><i class="fa fa-github"></i>Projects</a></li>
                         <li role="presentation" runat="server" ID="li_about"><a href="About.aspx"><i class="fa fa-binoculars"></i>About</a></li>
-                        <li role="presentation" runat="server" ID="li_contact"><a href="<% = PageUtils.getPageLink("contact") %>"><i class="fa fa-phone"></i>Contact</a></li>
+                        <li role="presentation" runat="server" ID="li_contact"><a href="Contact.aspx?p=contact"><i class="fa fa-phone"></i>Contact</a></li>
                     </ul>
                 </nav>
                 <h1 id="profile-tag" class="text-muted">

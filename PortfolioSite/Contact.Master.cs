@@ -7,13 +7,11 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 
 namespace PortfolioSite {
-    public partial class Main : System.Web.UI.MasterPage {
+    public partial class Contact1 : System.Web.UI.MasterPage {
         protected void Page_Load(object sender, EventArgs e) {
-
             MasterPage page = sender as MasterPage;
 
             string p = Request.Params.Get("p");
-            p = Validator.isEmpty(p) ? "home" : p;
 
             HtmlGenericControl li = null;
 

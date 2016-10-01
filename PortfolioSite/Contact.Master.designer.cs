@@ -10,7 +10,7 @@
 namespace PortfolioSite {
     
     
-    public partial class Main {
+    public partial class Contact1 {
         
         /// <summary>
         /// head control.
