@@ -3,12 +3,16 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <br />
-    <h2>Please, leave a message to this geek!</h2>
-    <br />
-    <br />
 
     <div class="col-xs-12 col-md-offset-1 col-md-10">
+
+        <br />
+        <h2>Please, leave a message to this geek!</h2>
+        <br />
+        <br />
+
+        <div id="message-success" class="alert alert-success" style="display: none;" role="alert">Thanks for your message!</div>
+        <div id="message-error" class="alert alert-danger" style="display: none;" role="alert">Fix the fields with error</div>
 
         <div class="form-group">
             <label for="exampleInputEmail1">Full name</label>
@@ -26,8 +30,13 @@
 
         <br />
 
-        <button type="submit" class="btn btn-primary">Send it!</button>
+        <button type="button" id="submit-button" class="btn btn-primary">Send it!</button>
 
     </div>
 
+</asp:Content>
+
+
+<asp:Content ID="Content3" ContentPlaceHolderID="bottom" runat="server">
+    <script src="Scripts/contact.js"></script>
 </asp:Content>

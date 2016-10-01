@@ -121,6 +121,7 @@
     <Content Include="Main.Master" />
     <Content Include="Projects.aspx" />
     <Content Include="Scripts\about.js" />
+    <Content Include="Scripts\contact.js" />
     <Content Include="Scripts\default.js" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />
     <Content Include="package.json" />
