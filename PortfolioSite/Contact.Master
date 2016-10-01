@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Contact.master.cs" Inherits="PortfolioSite.Contact1" %>
+
 <%@ Import Namespace="PortfolioSite" %>
 
 <!-- Name: Thiago de Andrade Souza -->
@@ -26,35 +27,34 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server" class="main-form">
 
-        <div class="container">
 
-            <header id="header" class="header clearfix">
-                <nav>
-                    <ul class="nav nav-pills pull-right">
-                        <li role="presentation" runat="server" ID="li_home"><a href="<% = PageUtils.getPageLink("home") %>"><i class="fa fa-home"></i> Home</a></li>
-                        <li role="presentation" runat="server" ID="li_services"><a href="<% = PageUtils.getPageLink("services") %>"><i class="fa fa-book"></i> Services</a></li>
-                        <li role="presentation" runat="server" ID="li_projects"><a href="<% = PageUtils.getPageLink("projects") %>"><i class="fa fa-github"></i> Projects</a></li>
-                        <li role="presentation" runat="server" ID="li_about"><a href="<% = PageUtils.getPageLink("about") %>"><i class="fa fa-binoculars"></i> About</a></li>
-                        <li role="presentation" runat="server" ID="li_contact"><a href="<% = PageUtils.getPageLink("contact") %>"><i class="fa fa-phone"></i> Contact</a></li>
-                    </ul>
-                </nav>
-                <h1 id="profile-tag" class="text-muted">
-                    <img src="Assets/images/thiagoh-1.jpg" alt="profile photo"/>
-                    Thiago Andrade
-                </h1>
-            </header>
+    <div class="container">
 
-            <div role="main" class="main">
-                <asp:ContentPlaceHolder ID="MainContent" runat="server">
-                </asp:ContentPlaceHolder>
-            </div>
+        <header id="header" class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" runat="server" id="li_home"><a href="<% = PageUtils.getPageLink("home") %>"><i class="fa fa-home"></i>Home</a></li>
+                    <li role="presentation" runat="server" id="li_services"><a href="<% = PageUtils.getPageLink("services") %>"><i class="fa fa-book"></i>Services</a></li>
+                    <li role="presentation" runat="server" id="li_projects"><a href="<% = PageUtils.getPageLink("projects") %>"><i class="fa fa-github"></i>Projects</a></li>
+                    <li role="presentation" runat="server" id="li_about"><a href="<% = PageUtils.getPageLink("about") %>"><i class="fa fa-binoculars"></i>About</a></li>
+                    <li role="presentation" runat="server" id="li_contact"><a href="<% = PageUtils.getPageLink("contact") %>"><i class="fa fa-phone"></i>Contact</a></li>
+                </ul>
+            </nav>
+            <h1 id="profile-tag" class="text-muted">
+                <img src="Assets/images/thiagoh-1.jpg" alt="profile photo" />
+                Thiago Andrade
+            </h1>
+        </header>
 
-            <footer role="contentinfo">
-            </footer>
+        <div role="main" class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
-    </form>
+
+        <footer role="contentinfo">
+        </footer>
+    </div>
 
     <!-- JS section -->
     <script src="Scripts/jquery-2.2.4.min.js"></script>
